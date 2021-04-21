@@ -13,7 +13,7 @@
 
     <groupId>guru.springframework</groupId>
     <artifactId>mssc-brewery-bom</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.5</version>
 
     <packaging>pom</packaging>
 
@@ -139,6 +139,16 @@
             <groupId>net.logstash.logback</groupId>
             <artifactId>logstash-logback-encoder</artifactId>
             <version>6.3</version>
+        </dependency>
+
+        <!-- Allow Springboot retry -->
+        <dependency>
+            <groupId>org.springframework.retry</groupId>
+            <artifactId>spring-retry</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
         </dependency>
 
         <dependency>
